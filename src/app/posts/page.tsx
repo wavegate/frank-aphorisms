@@ -19,6 +19,7 @@ export default async function Posts() {
   return (
     <div>
       <h1>Posts</h1>
+      <div>Hi</div>
       {data.map((post: any) => {
         return (
           <div key={post.id}>
